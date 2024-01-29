@@ -7,4 +7,10 @@
 который получаем от функции, в консоль.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function cubePow(number) {
+    return number ** 3;
+}
+
+const number = +prompt('В ведите число');
+
+console.log(cubePow(number));
