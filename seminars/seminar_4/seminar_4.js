@@ -460,8 +460,8 @@
 
 // Пример FOR EACH
 
-// const arr = [1,2,3,4,5];
-// arr.forEach((num, index) => {
-//     console.log(`Индекс ${index}, значение ${num}`);    
-// });
+const arr = [1,2,3,4,5];
+arr.forEach((num, index) => {
+    console.log(`Индекс ${index}, значение ${num}`);    
+});
 
